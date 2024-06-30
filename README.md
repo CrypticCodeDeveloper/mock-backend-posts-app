@@ -8,7 +8,7 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 - **Edit Post:** Allows editing of existing posts with a modal popup.
 - **Delete Post:** Enables deletion of posts with a confirmation popup.
 - **Pagination:** Displays posts in pages with navigation buttons.
-- 
+  
 ## Technologies Used
 
 - **JavaScript:** Vanilla JavaScript for logic and DOM manipulation.
