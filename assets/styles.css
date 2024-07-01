@@ -12,11 +12,20 @@ body {
 
 nav {
   width: 100%;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #333;
   padding: 1.3rem 0;
-  text-align: center;
 }
-
+nav #create-post-button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: white;
+  background-color: cornflowerblue;
+}
 nav h1 {
   color: #fff;
   margin: 0;
@@ -64,7 +73,9 @@ button:hover {
 
 .pagination {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  width: 90%;
   margin-top: 20px;
 }
 
