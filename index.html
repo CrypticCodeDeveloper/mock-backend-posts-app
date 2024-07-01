@@ -13,9 +13,21 @@
   <body>
     <nav>
       <h1>POSTS</h1>
+      <button id="create-post-button">New Post</button>
     </nav>
     <div id="posts-container" class="posts-container"></div>
     <div id="pagination" class="pagination"></div>
+
+    <!-- Create Post Modal -->
+    <div id="create-modal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('create-modal')">&times;</span>
+        <h2>Create New Post</h2>
+        <input type="text" id="create-title" placeholder="Title" />
+        <textarea id="create-body" placeholder="Body"></textarea>
+        <button id="add-post-button">Create Post</button>
+      </div>
+    </div>
 
     <!-- Edit Post Modal -->
     <div id="edit-modal" class="modal">
